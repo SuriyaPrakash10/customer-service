@@ -1,6 +1,17 @@
 version: 2
+
+registries:
+  nexus:
+    type: maven-repository
+    url: "https://baguette-audacity-cringing.ngrok-free.dev/repository/maven-public/"
+    username: "${{secrets.NEXUS_USERNAME}}"
+    password: "${{secrets.NEXUS_PASSWORD}}"
+
 updates:
   - package-ecosystem: "maven"
     directory: "/"
+    registries:
+      - nexus
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 5
