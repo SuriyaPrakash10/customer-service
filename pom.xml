@@ -17,16 +17,11 @@
  <groupId>com.suriya.demo</groupId>
  <artifactId>customer-service</artifactId>
  <version>1.0.0</version>
- <name>customer-service</name>
- <description>Customer Service Demo</description>
- <packaging>jar</packaging>
 
  <properties>
   <java.version>17</java.version>
-  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  </properties>
 
- <!-- Import the Enterprise BOM -->
  <dependencyManagement>
   <dependencies>
    <dependency>
@@ -39,12 +34,10 @@
   </dependencies>
  </dependencyManagement>
 
- <!-- Download BOM from Nexus -->
  <repositories>
   <repository>
    <id>nexus-public</id>
-   <name>Nexus Public</name>
-   <url>http://localhost:8081/repository/maven-public/</url>
+   <url>https://baguette-audacity-cringing.ngrok-free.dev/repository/maven-public/</url>
   </repository>
  </repositories>
 
@@ -58,26 +51,8 @@
   <dependency>
    <groupId>org.projectlombok</groupId>
    <artifactId>lombok</artifactId>
-   <optional>true</optional>
-  </dependency>
-
-  <dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-test</artifactId>
-   <scope>test</scope>
   </dependency>
 
  </dependencies>
-
- <build>
-  <plugins>
-
-   <plugin>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-maven-plugin</artifactId>
-   </plugin>
-
-  </plugins>
- </build>
 
 </project>

@@ -14,4 +14,4 @@ updates:
       - nexus
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
