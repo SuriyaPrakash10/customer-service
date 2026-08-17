@@ -14,9 +14,7 @@ updates:
       - nexus
 
     schedule:
-      interval: cron
-      cronjob: "0 * * * *"
-      timezone: "Etc/UTC"
+      interval: daily
 
     cooldown:
       exclude:
