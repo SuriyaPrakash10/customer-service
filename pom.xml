@@ -8,10 +8,10 @@
  <modelVersion>4.0.0</modelVersion>
 
  <parent>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-parent</artifactId>
-  <version>3.5.4</version>
-  <relativePath/>
+        <groupId>com.suriya.demo</groupId>
+       <artifactId>enterprise-parent-bom</artifactId>
+              <version>1.0.6</version>
+        <relativePath/>
  </parent>
 
  <groupId>com.suriya.demo</groupId>
@@ -22,22 +22,10 @@
   <java.version>17</java.version>
  </properties>
 
- <dependencyManagement>
-  <dependencies>
-   <dependency>
-    <groupId>com.suriya.demo</groupId>
-    <artifactId>enterprise-parent-bom</artifactId>
-    <version>1.0.7</version>
-    <type>pom</type>
-    <scope>import</scope>
-   </dependency>
-  </dependencies>
- </dependencyManagement>
-
  <repositories>
   <repository>
    <id>nexus-public</id>
-   <url>https://fancy-readers-burn.loca.lt/repository/maven-public/</url>
+       <url>https://sour-eggs-warn.loca.lt/repository/maven-public/</url>
   </repository>
  </repositories>
 
