@@ -25,7 +25,7 @@
  <repositories>
   <repository>
    <id>nexus-public</id>
-       <url>https://sour-eggs-warn.loca.lt/repository/maven-public/</url>
+       <url>https://great-breads-warn.loca.lt/repository/maven-public/</url>
   </repository>
  </repositories>
 

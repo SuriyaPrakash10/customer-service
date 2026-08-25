@@ -3,7 +3,7 @@
  registries:
    nexus:
      type: maven-repository
-     url: https://fancy-readers-burn.loca.lt/repository/maven-releases/
+     url: https://great-breads-warn.loca.lt/repository/maven-releases/
      username: ${{secrets.NEXUS_USER}}
      password: ${{secrets.NEXUS_PASS}}
 
